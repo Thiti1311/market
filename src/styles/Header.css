@@ -1,0 +1,150 @@
+header {
+  padding: 0% 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.main-text {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+.main-text .logo-top {
+  color: white;
+  text-decoration: none;
+}
+
+.left-side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.bag {
+  cursor: pointer; 
+  position: relative;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.bag-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.bag-dropdown {
+  position: absolute;
+  right: 5%;
+  top: 9%;
+  background-color: #000;
+  color: #ffff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  width: 30%;
+  padding: 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.bag-dropdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: auto;
+  max-height: 300px; 
+}
+
+.bag-dropdown li {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.bag-dropdown img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.bag-dropdown p {
+  margin: 0;
+}
+
+.bag-dropdown p {
+  text-align: center;
+  margin: 0;
+}
+
+.disabled {
+  pointer-events: none;
+  color: grey;
+  cursor: not-allowed;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.details, .total-container {
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.total-container {
+  padding: 5% 0;
+}
+
+.button-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view-bag-button {
+  width: 100%;
+  padding: 5%;
+  background-color: #ffffff;
+  border: none;
+}
+
+.view-bag-button:hover {
+  background-color: #ffffffd5;
+  color: #000;
+}
+
+.subtitle {
+  width: 45%;
+}
+
+.empty {
+  margin: 5% !important;
+}

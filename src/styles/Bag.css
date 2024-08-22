@@ -1,0 +1,101 @@
+.bag-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    height: 70vh;
+    gap: 5%;
+}
+
+.bag-items {
+    width: 60%;
+}
+
+.bag-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.bag-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.bag-item-details {
+    flex-grow: 1;
+}
+
+.bag-item-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.bag-item-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #555;
+}
+
+.bag-item-size, .bag-item-color {
+    margin-right: 15px;
+}
+
+.bag-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.bag-item-remove {
+    margin-top: 10px;
+    color: red;
+    cursor: pointer;
+}
+
+.bag-summary {
+    width: 35%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.bag-summary h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bag-summary p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.payment-container {
+    margin-top: 30px;
+}
+
+.value-to-pay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-bag {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px
+}
+
+.space-details {
+    display: flex;
+    justify-content: space-between;
+}
